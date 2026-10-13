@@ -17,7 +17,7 @@ F_θ(s) = Ξ(s−θ)Ξ(s+θ) is the adversarial control.
 | `test23.py` | Tests 2–3: loss-of-positivity prime profiles and the degree-two residual prediction. |
 
 **Recorded results:** the original 2026-10-08 runs are summarized in the
-staging bundle's `results/ritz-numerical-results-2026-10-08.md`; a fresh
+this directory's `results-2026-10-08.md`; a fresh
 reproduction from this directory is recorded in `REPRODUCTION-2026-10-13.md`.
 
 Requires numpy (Legendre quadrature via `numpy.polynomial.legendre`).
