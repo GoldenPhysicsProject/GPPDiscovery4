@@ -1,0 +1,82 @@
+================ LADDER A: kmax at fixed dk=0.75, polys (0,1,2) ================
+       kmax=16 dk=0.75 m=129 D= 18 lam_min-1=-1.12e-08  bundle: 1e-05:8 1e-06:8 1e-07:7
+                        Omega(eps=0.01) =  25.01  N(Omega)= 3   D-2N =  12   D-N =  15   bundle@1e-6 = 8
+                        Omega(eps=0.001) =  30.42  N(Omega)= 4   D-2N =  10   D-N =  14   bundle@1e-6 = 8
+                        [4s]
+       kmax=20 dk=0.75 m=159 D= 21 lam_min-1=-3.45e-10  bundle: 1e-05:9 1e-06:9 1e-07:8
+                        Omega(eps=0.01) =  30.42  N(Omega)= 4   D-2N =  13   D-N =  17   bundle@1e-6 = 9
+                        Omega(eps=0.001) =  32.94  N(Omega)= 5   D-2N =  11   D-N =  16   bundle@1e-6 = 9
+                        [7s]
+       kmax=24 dk=0.75 m=195 D= 25 lam_min-1=-3.18e-08  bundle: 1e-05:11 1e-06:10 1e-07:9
+                        Omega(eps=0.01) =  32.94  N(Omega)= 5   D-2N =  15   D-N =  20   bundle@1e-6 = 10
+                        Omega(eps=0.001) =  37.59  N(Omega)= 6   D-2N =  13   D-N =  19   bundle@1e-6 = 10
+                        [10s]
+       kmax=28 dk=0.75 m=225 D= 28 lam_min-1=-3.68e-08  bundle: 1e-05:12 1e-06:11 1e-07:9
+                        Omega(eps=0.01) =  37.59  N(Omega)= 6   D-2N =  16   D-N =  22   bundle@1e-6 = 11
+                        Omega(eps=0.001) =  40.92  N(Omega)= 7   D-2N =  14   D-N =  21   bundle@1e-6 = 11
+                        [11s]
+       kmax=30 dk=0.75 m=243 D= 30 lam_min-1=-1.33e-07  bundle: 1e-05:12 1e-06:12 1e-07:10
+                        Omega(eps=0.01) =  40.92  N(Omega)= 7   D-2N =  16   D-N =  23   bundle@1e-6 = 12
+                        Omega(eps=0.001) =  43.33  N(Omega)= 8   D-2N =  14   D-N =  22   bundle@1e-6 = 12
+                        [14s]
+       kmax=34 dk=0.75 m=273 D= 33 lam_min-1=-1.51e-07  bundle: 1e-05:13 1e-06:13 1e-07:11
+                        Omega(eps=0.01) =  43.33  N(Omega)= 8   D-2N =  17   D-N =  25   bundle@1e-6 = 13
+                        Omega(eps=0.001) =  48.01  N(Omega)= 9   D-2N =  15   D-N =  24   bundle@1e-6 = 13
+                        [15s]
+       kmax=38 dk=0.75 m=303 D= 36 lam_min-1=-1.27e-06  bundle: 1e-05:14 1e-06:13 1e-07:11
+                        Omega(eps=0.01) =  48.01  N(Omega)= 9   D-2N =  18   D-N =  27   bundle@1e-6 = 13
+                        Omega(eps=0.001) =  49.77  N(Omega)=10   D-2N =  16   D-N =  26   bundle@1e-6 = 13
+                        [18s]
+       kmax=44 dk=0.75 m=351 D= 41 lam_min-1=-1.00e-06  bundle: 1e-05:16 1e-06:15 1e-07:13
+                        Omega(eps=0.01) =  52.97  N(Omega)=11   D-2N =  19   D-N =  30   bundle@1e-6 = 15
+                        Omega(eps=0.001) =  56.45  N(Omega)=12   D-2N =  17   D-N =  29   bundle@1e-6 = 15
+                        [24s]
+       kmax=50 dk=0.75 m=399 D= 46 lam_min-1=-1.03e-06  bundle: 1e-05:18 1e-06:15 1e-07:14
+                        Omega(eps=0.01) =  60.83  N(Omega)=14   D-2N =  18   D-N =  32   bundle@1e-6 = 15
+                        Omega(eps=0.001) =  60.83  N(Omega)=14   D-2N =  18   D-N =  32   bundle@1e-6 = 15
+                        [31s]
+
+================ LADDER B: fixed basis size 243, dk varies (Omega knob only) ================
+        kmax=20 dk=0.5 m=243 D= 22 lam_min-1=-1.67e-08  bundle: 1e-05:10 1e-06:9 1e-07:8
+                        Omega(eps=0.01) =  30.42  N(Omega)= 4   D-2N =  14   D-N =  18   bundle@1e-6 = 9
+                        Omega(eps=0.001) =  32.94  N(Omega)= 5   D-2N =  12   D-N =  17   bundle@1e-6 = 9
+                        [13s]
+       kmax=30 dk=0.75 m=243 D= 30 lam_min-1=-1.33e-07  bundle: 1e-05:12 1e-06:12 1e-07:10
+                        Omega(eps=0.01) =  40.92  N(Omega)= 7   D-2N =  16   D-N =  23   bundle@1e-6 = 12
+                        Omega(eps=0.001) =  43.33  N(Omega)= 8   D-2N =  14   D-N =  22   bundle@1e-6 = 12
+                        [12s]
+        kmax=44 dk=1.1 m=243 D= 41 lam_min-1=-9.50e-06  bundle: 1e-05:16 1e-06:13 1e-07:13
+                        Omega(eps=0.01) =  52.97  N(Omega)=11   D-2N =  19   D-N =  30   bundle@1e-6 = 13
+                        Omega(eps=0.001) =  56.45  N(Omega)=12   D-2N =  17   D-N =  29   bundle@1e-6 = 13
+                        [12s]
+
+================ SENSITIVITY: whitening cut at kmax=30, dk=0.75 ================
+cut=1e-10: D=27  bundle: 1e-05:11 1e-06:9 1e-07:9  Omega(1e-3)=43.33  [15s]
+cut=1e-12: D=30  bundle: 1e-05:12 1e-06:12 1e-07:10  Omega(1e-3)=43.33  [14s]
+cut=1e-14: D=32  bundle: 1e-05:12 1e-06:12 1e-07:10  Omega(1e-3)=43.33  [12s]
+
+================ CROSSING ANALYSIS (ladder A, sorted by Omega) ================
+eps=0.001:  rung-to-rung changes as Omega grows
+  Omega    D bundle@1e-5 bundle@1e-6  D-2N   D-N                 crossed gammas
+  30.42   18           8           8    10    14  
+  32.94   21           9           9    11    16  crossed [32.9]: dbundle@1e-6=+1 (pred -2 for -2N, -1 for -N)
+  37.59   25          11          10    13    19  crossed [37.6]: dbundle@1e-6=+1 (pred -2 for -2N, -1 for -N)
+  40.92   28          12          11    14    21  crossed [40.9]: dbundle@1e-6=+1 (pred -2 for -2N, -1 for -N)
+  43.33   30          12          12    14    22  crossed [43.3]: dbundle@1e-6=+1 (pred -2 for -2N, -1 for -N)
+  48.01   33          13          13    15    24  crossed [48.0]: dbundle@1e-6=+1 (pred -2 for -2N, -1 for -N)
+  49.77   36          14          13    16    26  crossed [49.8]: dbundle@1e-6=+0 (pred -2 for -2N, -1 for -N)
+  56.45   41          16          15    17    29  crossed [53.0, 56.4]: dbundle@1e-6=+2 (pred -4 for -2N, -2 for -N)
+  60.83   46          18          15    18    32  crossed [59.3, 60.8]: dbundle@1e-6=+0 (pred -4 for -2N, -2 for -N)
+
+================ SAMPLING SINGULAR VALUES (ladder A) ================
+       kmax=16 dk=0.75: log10 sv (first 24): 0.0 -0.7 -1.8 -3.2 -4.6 -6.8 -7.6 -9.3 -11.1 -12.4 -14.9 -15.0 -15.3 -15.9 -16.2 -16.6 -16.8 -17.0
+       kmax=20 dk=0.75: log10 sv (first 24): 0.1 -0.3 -1.2 -2.2 -3.4 -5.0 -6.5 -8.0 -9.8 -11.2 -12.5 -14.8 -14.9 -15.1 -15.4 -16.0 -16.4 -16.6 -16.7 -16.8 -17.0
+       kmax=24 dk=0.75: log10 sv (first 24): 0.2 -0.1 -0.6 -1.3 -2.4 -3.4 -4.8 -6.1 -8.2 -8.9 -11.2 -12.8 -13.8 -14.9 -14.9 -15.0 -15.2 -15.6 -16.0 -16.5 -16.5 -16.7 -16.8 -16.8
+       kmax=28 dk=0.75: log10 sv (first 24): 0.2 0.0 -0.3 -0.8 -1.7 -2.5 -3.6 -4.9 -6.4 -7.6 -9.3 -11.0 -13.2 -13.8 -14.7 -14.9 -14.9 -15.1 -15.2 -15.7 -16.1 -16.4 -16.5 -16.7
+       kmax=30 dk=0.75: log10 sv (first 24): 0.2 0.1 -0.2 -0.7 -1.3 -2.1 -3.0 -4.2 -5.4 -6.8 -8.2 -9.9 -11.6 -12.9 -14.7 -14.8 -14.9 -15.1 -15.1 -15.5 -15.7 -16.0 -16.3 -16.5
+       kmax=34 dk=0.75: log10 sv (first 24): 0.3 0.1 -0.0 -0.4 -0.8 -1.5 -2.2 -3.2 -4.2 -5.5 -6.7 -8.1 -9.7 -11.0 -13.0 -14.4 -14.8 -14.9 -15.0 -15.1 -15.3 -15.6 -15.9 -16.1
+       kmax=38 dk=0.75: log10 sv (first 24): 0.3 0.2 0.0 -0.2 -0.6 -1.1 -1.7 -2.3 -3.3 -4.3 -5.5 -6.6 -7.9 -9.4 -11.3 -12.2 -14.5 -14.8 -14.9 -15.0 -15.1 -15.2 -15.4 -15.6
+       kmax=44 dk=0.75: log10 sv (first 24): 0.3 0.2 0.1 -0.0 -0.3 -0.6 -1.0 -1.6 -2.1 -2.9 -3.7 -4.7 -5.7 -7.1 -8.1 -9.5 -11.1 -12.6 -14.7 -14.8 -14.9 -14.9 -15.0 -15.1
+       kmax=50 dk=0.75: log10 sv (first 24): 0.4 0.3 0.2 0.0 -0.1 -0.4 -0.7 -1.0 -1.5 -1.9 -2.5 -3.3 -4.2 -5.0 -6.1 -7.1 -8.3 -9.6 -11.2 -12.6 -14.5 -14.8 -14.8 -14.9
+
+[done] data saved to /home/hatch/workspace/ym-k-experiments/bundle_counting_data.npz
