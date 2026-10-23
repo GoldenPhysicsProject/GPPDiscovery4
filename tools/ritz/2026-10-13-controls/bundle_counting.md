@@ -5,7 +5,7 @@ data: `bundle_counting_data.npz`). Machinery identical to
 `bundle_mechanism.py`: `ritz_analysis.setup` + neutral basis, L=4, h=0.01,
 ycut=6, θ=0, whitening cut 1e-12 (the rig's). **Label: NUMERICAL throughout.**
 
-**The claim under test (Claude Code, PR #11).** The windowed form is a sum of
+**The claim under test.** The windowed form is a sum of
 one positive term per zero ordinate; with D test functions whose frequency
 band reaches height Ω, the near-null bundle should have dimension
 D − 2N(Ω), N(Ω) = #{ζ zeros, γ ≤ Ω}; raising the bandwidth should shrink
@@ -73,7 +73,7 @@ plunge knee moving right as kmax grows.)
 kmax raises the whitened neutral dimension D (22 → 30 → 41): the neutral
 space of this rig is itself bandwidth-limited, so *the bundle never
 drops in absolute terms* when bandwidth grows — it grows (8 → 18 up
-ladder A) because D grows faster than the rank. Claude's "bundle
+ladder A) because D grows faster than the rank. The "bundle
 shrinks by 2 per crossing" is therefore **not** what this rig does
 under basis enlargement; the true statement is about the rank:
 each crossing adds exactly 2 to D − bundle. A literal fixed-D test

@@ -11,17 +11,16 @@ Effective Omega is MEASURED per rung from the zero-sampling map on the
 neutral space (row norms of samples at zeta ordinates), not asserted
 from the basis parameters.  NUMERICAL throughout.
 """
-import sys, time
+import sys, time, os
 import numpy as np
 
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
-sys.path.insert(0, "/home/hatch/workspace/gppdiscovery4/tools/ritz")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 import theta_control_ritz_4_spk4 as R
 from ritz_analysis import setup, neutral_basis, F_matrix
 from theta_control_ritz_4_spk4 import trigbasis
 
-OUT = "/home/hatch/workspace/ym-k-experiments"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 H = 0.01
 L = 4.0
 YCUT = 6.0

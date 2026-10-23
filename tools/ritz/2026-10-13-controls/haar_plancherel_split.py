@@ -13,10 +13,10 @@ each jump-class sum (arch-only, prime-only) at theta=0 and theta=0.25;
 (3) min eigenvalue of total E (unreduced) for contrast with the reduced
 neutral value. NUMERICAL.
 """
-import sys
+import sys, os
 import numpy as np
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 import theta_control_ritz_4_spk4 as R
 from ritz_analysis import setup, neutral_basis
 from theta_control_ritz_4_spk4 import trigbasis

@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# Bridge-internal backup tooling lives in the private GPP-bridge repo
+scripts/backup_to_bridge.sh

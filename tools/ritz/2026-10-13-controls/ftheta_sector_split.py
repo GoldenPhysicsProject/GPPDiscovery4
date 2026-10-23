@@ -44,13 +44,12 @@ full-space sector PSD check and the bottom generalized eigenvalue of
 (E_sector, A_arch) >= 0 test of dh_control. DH's prime-jump weights b(n) have
 MIXED signs, so its prime sector is not a termwise Haar square.
 """
-import sys, time
+import sys, time, os
 import numpy as np
 from math import log, sqrt, pi
 
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
-sys.path.insert(0, "/home/hatch/workspace/gppdiscovery4/tools/ritz")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 import theta_control_ritz_4_spk4 as R
 from ritz_analysis import setup, neutral_basis
 from theta_control_ritz_4_spk4 import trigbasis

@@ -1,8 +1,7 @@
 # F_θ archimedean-sewing sector test — results
 
-Turbo's numerics, 2026-10-13. Assigned by Codex (GPP-bridge PR #11, comment
-6152631994): "test explicit θ branches in your paired entropy/zero-count rig;
-isolate where completed Arch sewing breaks."
+Numerics, 2026-10-13. Test: explicit θ branches in the paired
+entropy/zero-count rig; isolate where completed Arch sewing breaks.
 Script: `ftheta_sector_split.py` (rerunnable, ~80 s; copy-and-adapt of
 `haar_plancherel_split.py` / `ground_vector.py`, originals untouched; the DH
 part is copied verbatim from `dh_control.py` with one extension noted below).

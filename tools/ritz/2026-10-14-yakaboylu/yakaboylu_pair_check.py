@@ -62,17 +62,16 @@ form. The archimedean/prime-side balance (the explicit formula, the
 E - W completed form of the rigs) is a separate, existing computation;
 nothing here re-derives or replaces it.
 """
-import sys, time
+import sys, time, os
 import numpy as np
 
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
-sys.path.insert(0, "/home/hatch/workspace/gppdiscovery4/tools/ritz")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 from ritz_analysis import setup, neutral_basis, make_labeled, F_matrix, \
     zero_side_matrix
 from theta_control_ritz_4_spk4 import trigbasis
 
-HERE = "/home/hatch/workspace/ym-k-experiments"
+HERE = os.path.dirname(os.path.abspath(__file__))
 FUNCS = trigbasis(30, 0.75, (0, 1, 2))
 L, H, YCUT = 4.0, 0.01, 6.0
 GAMMA = np.load(f"{HERE}/zeta_ordinates_140.npy")

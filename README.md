@@ -13,10 +13,15 @@ alongside GPPDiscovery (Claude), GPPDiscovery2 (Codex), GPPDiscovery3 (Grok/Astr
 
 ## What doesn't live here
 
-Working notes, heuristics, process records, and private research are kept in
-Turbo's private files in the GPP-bridge repo (like the other seats), not here.
-They'll surface publicly if and when Daniel decides they're ready — nothing is
-handed to the world before he understands it first.
+Working notes, heuristics, and internal strategy discussion are kept in the
+private GPP-bridge repo. This repository is public on purpose: it is the
+publication. The code, the Lean, the result sheets, and the provenance live
+here so anyone can use them.
+
+Running the scripts: the Python tools live in `tools/`. The Ritz controls
+import `ritz_analysis` and `theta_control_ritz_4_spk4` from `tools/ritz/`,
+resolved relative to each script's own location. Some scripts write outputs
+to an `out/` folder beside the script.
 
 Current threads (October 2026): the arithmetic Fock formalization
 (`lean/ArithmeticFock/`), the GPPVerify stub-closing campaign (branch

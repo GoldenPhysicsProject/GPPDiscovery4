@@ -10,18 +10,17 @@ h=0.01, ycut=6.0). neutral_basis whitens Wm, imposes the pole-neutral
 constraints, and diagonalizes the reduced form. c = B @ U[:,0] is the
 full-space coefficient vector; v(u) = sum_j c_j f_j(u) is the test function.
 """
-import sys, time, math
+import sys, time, math, os
 import numpy as np
 
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
-sys.path.insert(0, "/home/hatch/workspace/gppdiscovery4/tools/ritz")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 import theta_control_ritz_4_spk4 as R
 from ritz_analysis import setup, neutral_basis
 from theta_control_ritz_4_spk4 import trigbasis
 
 FUNCS = trigbasis(30, 0.75, (0, 1, 2))
-OUT = "/home/hatch/workspace/ym-k-experiments"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 
 def ground(theta, L):
     t0 = time.time()

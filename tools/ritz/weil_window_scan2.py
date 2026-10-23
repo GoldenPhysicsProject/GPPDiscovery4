@@ -3,11 +3,10 @@
 Weil window scan, pass 2: refine the F_theta sign crossing and audit the
 small-L end. Turbo, 2026-10-13. NUMERICAL.
 """
-import sys, time
+import sys, time, os
 import numpy as np
 
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ritz_analysis import setup, neutral_basis
 from theta_control_ritz_4_spk4 import trigbasis
 

@@ -4,11 +4,10 @@ Supplement to ground_vector.py: quantify the near-null bundle at theta=0
 (how many reduced eigenvalues sit within tol of 1) and check whether the
 jump fingerprint is stable when averaged over the bundle. NUMERICAL.
 """
-import sys
+import sys, os
 import numpy as np
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
-sys.path.insert(0, "/home/hatch/workspace/gppdiscovery4/tools/ritz")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 from ritz_analysis import setup, neutral_basis
 from theta_control_ritz_4_spk4 import trigbasis
 

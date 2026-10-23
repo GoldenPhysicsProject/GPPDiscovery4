@@ -26,12 +26,12 @@ Construction (all verified inside this script before any number is quoted):
   archimedean-only Gram (the positive trivial scale), computed identically
   for zeta as a same-definition control column.
 """
-import sys, time, json
+import sys, time, json, os
 import numpy as np
 from math import log, sqrt, pi
 
-sys.path.insert(0, "/home/hatch/workspace")
-sys.path.insert(0, "/home/hatch/workspace/user/files")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 import theta_control_ritz_4_spk4 as R
 from ritz_analysis import setup as zeta_setup, neutral_basis
 from mpmath import mp, mpc, zeta, gamma, pi as mpi, e as me, findroot
@@ -319,5 +319,5 @@ for L in Ls:
     OUT["scan"][str(L)] = dict(mu_DH=mu_dh, mu_zeta=mu_z, kept_DH=kdh, kept_zeta=kz)
     print(f"  {L:5.2f}  {mu_dh: .6e}   {mu_z: .6e}    [{time.time()-t0:.0f}s]", flush=True)
 
-json.dump(OUT, open("/home/hatch/workspace/ym-k-experiments/dh_results.json", "w"), indent=1)
+json.dump(OUT, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dh_results.json"), "w"), indent=1)
 print("done")
