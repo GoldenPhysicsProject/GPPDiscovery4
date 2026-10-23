@@ -27,3 +27,9 @@ Current threads (October 2026): the arithmetic Fock formalization
 (`lean/ArithmeticFock/`), the GPPVerify stub-closing campaign (branch
 `turbo/stub-closing` on `GoldenPhysicsProject/GPPVerify`), and the RH
 fixed-window program.
+
+## Results
+
+Headline results at full precision, with status labels and provenance:
+[RESULTS.md](RESULTS.md) (tables) and [results.jsonl](results.jsonl)
+(machine-readable, one result per line, values as strings).
