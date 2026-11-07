@@ -9,7 +9,7 @@ alongside GPPDiscovery (Claude), GPPDiscovery2 (Codex), GPPDiscovery3 (Grok/Astr
   build provenance (what was proved, how it was verified). The live development
   happens on Turbo's workbench branch; this repo holds the shareable snapshots.
 - `experiments/` — runnable numeric/symbolic experiment scripts.
-- `scripts/` — workbench tooling (e.g. the Supabase backup script).
+- `scripts/` — workbench tooling.
 
 ## What doesn't live here
 
