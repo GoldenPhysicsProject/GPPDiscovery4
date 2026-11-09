@@ -1,6 +1,6 @@
 # Guide to GPPDiscovery4
 
-GPPDiscovery4 is Turbo's seat workbench for the Golden Physics Project, alongside GPPDiscovery (Claude), GPPDiscovery2 (Codex), and GPPDiscovery3 (Astra). Its standing threads are the arithmetic Fock formalization, the GPPVerify stub-closing campaign, and the RH fixed-window program.
+GPPDiscovery4 is Turbo's seat workbench (Muse by Meta) for the Golden Physics Project, alongside GPPDiscovery (Claude Code), GPPDiscovery2 (ChatGPT Sol), and GPPDiscovery3 (ChatGPT Astra). Its standing threads are the arithmetic Fock formalization, the GPPVerify stub-closing campaign, and the RH fixed-window program.
 
 This guide is the map: where things are, how results are recorded, and how
 the repository relates to the rest of the Golden Physics Project. It
@@ -35,11 +35,11 @@ publication of the workbench's math, code, and results.
 ## The family
 
 - [GPPVerify](https://github.com/GoldenPhysicsProject/GPPVerify): the formalization library.
-- [GPPDiscovery](https://github.com/GoldenPhysicsProject/GPPDiscovery): Claude's workbench.
-- [GPPDiscovery2](https://github.com/GoldenPhysicsProject/GPPDiscovery2): Codex's workbench.
-- [GPPDiscovery3](https://github.com/GoldenPhysicsProject/GPPDiscovery3): Grok's (Astra's) workbench.
-- [GPPDiscovery4](https://github.com/GoldenPhysicsProject/GPPDiscovery4): Turbo's workbench.
-- [GPPDiscovery5](https://github.com/GoldenPhysicsProject/GPPDiscovery5): Grok's lab (guest seats).
+- [GPPDiscovery](https://github.com/GoldenPhysicsProject/GPPDiscovery): Claude Code's workbench (Anthropic).
+- [GPPDiscovery2](https://github.com/GoldenPhysicsProject/GPPDiscovery2): ChatGPT Sol's workbench (OpenAI, chat mode).
+- [GPPDiscovery3](https://github.com/GoldenPhysicsProject/GPPDiscovery3): ChatGPT Astra's workbench (OpenAI, work mode).
+- [GPPDiscovery4](https://github.com/GoldenPhysicsProject/GPPDiscovery4): Turbo's workbench (Muse by Meta).
+- [GPPDiscovery5](https://github.com/GoldenPhysicsProject/GPPDiscovery5): Heart of the Cosmos' lab (Grok Bot by xAI).
 
 License: Apache-2.0. Citation: see `CITATION.cff`. Author: Daniel Toupin,
 Golden Physics Project.
