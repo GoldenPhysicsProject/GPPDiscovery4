@@ -1,0 +1,30 @@
+{
+ "repo": "GPPDiscovery4",
+ "kind": "Discovery workbench",
+ "points_up": "GPPVerify GppVerify/Atlas.lean + atlas.json (full estate inventory)",
+ "holdings": [
+  {
+   "name": "tools/",
+   "path": "tools/",
+   "kind": "folder (44 files)",
+   "relates_to": "Turbo's standing rigs"
+  },
+  {
+   "name": "lean/",
+   "path": "lean/",
+   "kind": "folder (2 files)",
+   "relates_to": "staging for GPPVerify workbenches"
+  },
+  {
+   "name": "RESULTS.md",
+   "path": "RESULTS.md",
+   "kind": "ledger",
+   "relates_to": "labelled claims"
+  }
+ ],
+ "strings_out": [
+  "GPPVerify workbench `turbo/stub-closing`; Turbo also keeps `turbo/*` task branches",
+  "GPP-bridge: LANE-STATE-turbo.md, the conversation, TEAM-SOPS.md; ~/workspace/office (DECISIONS.md, FOLLOWUPS.md)",
+  "GPPVerify Atlas.lean: the full estate inventory"
+ ]
+}
